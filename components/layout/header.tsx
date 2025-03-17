@@ -13,23 +13,6 @@ export function Header() {
             Impact Hackathons
           </span>
         </Link>
-        <nav className="hidden md:flex items-center gap-8">
-          {["Vision", "Events", "Impact", "FAQ"].map((item) => (
-            <Link
-              key={item}
-              href={`#${item.toLowerCase()}`}
-              className="text-sm font-medium text-gray-600 hover:text-gray-900 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-gradient-to-r after:from-sky-500 after:to-emerald-500 after:transition-all"
-            >
-              {item}
-            </Link>
-          ))}
-          <Link
-            href="/partner"
-            className="text-sm font-medium text-gray-600 hover:text-gray-900 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-gradient-to-r after:from-sky-500 after:to-emerald-500 after:transition-all"
-          >
-            Partner with Us
-          </Link>
-        </nav>
         <div className="flex items-center gap-4">
           <Button 
             variant="outline" 

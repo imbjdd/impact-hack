@@ -19,7 +19,7 @@ export function NextEventSection() {
             <div className="inline-block px-4 py-1 rounded-full bg-gradient-to-r from-emerald-100 to-sky-100 text-emerald-800 text-sm font-medium">
               Featured Event
             </div>
-            <CardTitle className="text-3xl">Climate & Biodiversity Hackathon</CardTitle>
+            <CardTitle className="text-3xl">Global Change Hackathon</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -27,7 +27,7 @@ export function NextEventSection() {
                 <CalendarIcon className="h-6 w-6 text-emerald-600" />
                 <div>
                   <p className="text-sm text-emerald-600 font-medium">Date</p>
-                  <p className="text-gray-900">May 15-16, 2024</p>
+                  <p className="text-gray-900">May 15-16, 2025</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 p-4 rounded-xl bg-gradient-to-br from-sky-50 to-sky-100/50">

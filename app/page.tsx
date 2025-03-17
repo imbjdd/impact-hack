@@ -15,7 +15,6 @@ export default function Home() {
         <NextEventSection />
         {/*<ImpactSection />*/}
         <FaqSection />
-        <NewsletterSection />
       </main>
       <Footer />
     </div>
