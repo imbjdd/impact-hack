@@ -40,7 +40,7 @@ export function HeroSection() {
             <span className="text-gray-400">—</span>
             <span className="text-gray-400">Hackathons</span>,
             <span className="text-gray-400"> Impact</span>,
-            <span className="bg-gradient-to-r from-sky-600 to-emerald-600 bg-clip-text text-transparent font-bold  relative inline-flex items-center">&nbsp;Innovation 
+            <span className="bg-gradient-to-r from-[#DD403A] to-[#FF7A45] bg-clip-text text-transparent font-bold relative inline-flex items-center">&nbsp;Innovation 
               <MousePointer2 
                 className="absolute -bottom-8 -right-0 w-12 h-12 animate-pulse text-black"
               />
@@ -60,7 +60,7 @@ export function HeroSection() {
             <Button 
               variant="default"
               size="lg" 
-              className="bg-gradient-to-r from-sky-600 to-emerald-600 text-white hover:opacity-90"
+              className="bg-gradient-to-r from-[#DD403A] to-[#FF7A45] text-white hover:opacity-90"
             >
               Explore Events
             </Button>

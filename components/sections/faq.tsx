@@ -7,10 +7,10 @@ import {
 
 export function FaqSection() {
   return (
-    <section className="relative py-24 overflow-hidden bg-slate-50" id="faq">
+    <section className="relative py-24 overflow-hidden" id="faq">
       <div className="container mx-auto px-4 relative">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-emerald-600 mb-4">
+          <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#DD403A] to-[#FF7A45] mb-4">
             Frequently Asked Questions
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -21,7 +21,7 @@ export function FaqSection() {
         <div className="max-w-3xl mx-auto backdrop-blur-sm">
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem value="item-1" className="border rounded-xl bg-white/50 shadow-sm">
-              <AccordionTrigger className="px-6 hover:no-underline hover:bg-gray-50/50 rounded-xl">
+              <AccordionTrigger className="px-6 hover:no-underline hover:bg-[#FFFCE8]/50 rounded-xl">
                 What is an impact hackathon?
               </AccordionTrigger>
               <AccordionContent className="px-6 text-gray-600">
@@ -29,7 +29,7 @@ export function FaqSection() {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4" className="border rounded-xl bg-white/50 shadow-sm">
-              <AccordionTrigger className="px-6 hover:no-underline hover:bg-gray-50/50 rounded-xl">
+              <AccordionTrigger className="px-6 hover:no-underline hover:bg-[#FFFCE8]/50 rounded-xl">
                 How do you choose hackathon challenges?
               </AccordionTrigger>
               <AccordionContent className="px-6 text-gray-600">
@@ -38,7 +38,7 @@ export function FaqSection() {
             </AccordionItem>
 
             <AccordionItem value="item-2" className="border rounded-xl bg-white/50 shadow-sm">
-              <AccordionTrigger className="px-6 hover:no-underline hover:bg-gray-50/50 rounded-xl">
+              <AccordionTrigger className="px-6 hover:no-underline hover:bg-[#FFFCE8]/50 rounded-xl">
                 Who can participate?
               </AccordionTrigger>
               <AccordionContent className="px-6 text-gray-600">
@@ -47,7 +47,7 @@ export function FaqSection() {
             </AccordionItem>
 
             <AccordionItem value="item-3" className="border rounded-xl bg-white/50 shadow-sm">
-              <AccordionTrigger className="px-6 hover:no-underline hover:bg-gray-50/50 rounded-xl">
+              <AccordionTrigger className="px-6 hover:no-underline hover:bg-[#FFFCE8]/50 rounded-xl">
                 How does a hackathon work?
               </AccordionTrigger>
               <AccordionContent className="px-6 text-gray-600">

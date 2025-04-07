@@ -12,8 +12,8 @@ export default function Home() {
       <Header />
       <main>
         <HeroSection />
-        <NextEventSection />
-        {/*<ImpactSection />*/}
+        {/*<NextEventSection />
+        <ImpactSection />*/}
         <FaqSection />
       </main>
       <Footer />
