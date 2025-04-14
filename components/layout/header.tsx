@@ -15,6 +15,15 @@ export function Header() {
         </Link>
         <div className="flex items-center gap-4">
           <Button 
+            variant="outline"
+            className="hover:bg-[#FFFCE8] transition-colors"
+            asChild
+          >
+            <Link href="https://www.figma.com/slides/bwEbAGvN14yytTSRQ3PyHc/Untitled?node-id=1-29" target="_blank" rel="noopener noreferrer">
+              Pitch Deck
+            </Link>
+          </Button>
+          <Button 
             variant="outline" 
             className="hover:bg-[#FFFCE8] transition-colors"
           >
